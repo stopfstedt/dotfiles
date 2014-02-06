@@ -1,0 +1,7 @@
+[user]
+	email = Stefan.Topfstedt@ucsf.edu
+	name = Stefan Topfstedt
+[color]
+	ui = auto
+[push]
+	default = simple
