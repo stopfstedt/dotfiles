@@ -1,3 +1,4 @@
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 # .bashrc
 
 # Source global definitions
@@ -22,6 +23,3 @@ fi
 alias diff=colordiff
 alias gitpp='git pull; git push' 
 alias gitpretty='git log --graph --pretty=format:'"'"'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"'"' --abbrev-commit'
-
-# adds composer bin directory to PATH
-export PATH=$HOME/.composer/vendor/bin:$PATH
