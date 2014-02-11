@@ -9,6 +9,8 @@ The `.dircolors` file comes from [seebi's  dircolors-solarized](https://github.c
 
 The `.bash_prompt` file comes from [necolas' dotfiles](https://github.com/necolas/dotfiles).
 
+The `.drush_bashrc` files comes from the [Drush](https://github.com/drush-ops/drush/blob/master/examples/example.bashrc) project.
+
 ## Installation
 
 ### Using Git and the bootstrap script
