@@ -15,3 +15,5 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
+
+export NODE_PATH="/usr/lib/node_modules"
