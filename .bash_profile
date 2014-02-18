@@ -13,7 +13,7 @@ fi
 # User specific environment and startup programs
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
-
 export PATH
 
+# global Node.js modules dir
 export NODE_PATH="/usr/lib/node_modules"
