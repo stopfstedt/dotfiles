@@ -20,6 +20,6 @@ if [ -f ~/.bashrc_nonshareable ]; then
 fi
 
 # various aliases
-alias diff=colordiff
-alias gitpp='git pull; git push' 
-alias gitpretty='git log --graph --pretty=format:'"'"'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"'"' --abbrev-commit'
+if [ -f ~/.bash_aliases ]; then 
+	. ~/.bash_aliases
+fi
