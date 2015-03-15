@@ -1,0 +1,5 @@
+#
+# global gitignore file
+# @link https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+#
+.idea
