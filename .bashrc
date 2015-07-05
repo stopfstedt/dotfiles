@@ -106,3 +106,15 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# http://blog.jetbrains.com/webide/2012/03/new-in-4-0-easier-debugging-of-remote-php-command-line-scripts/
+#export PHP_IDE_CONFIG='serverName=local.foobar'
+# http://stackoverflow.com/a/17429641/307333
+export XDEBUG_CONFIG='idekey=PHPSTORM'
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
