@@ -112,9 +112,11 @@ fi
 # http://stackoverflow.com/a/17429641/307333
 export XDEBUG_CONFIG='idekey=PHPSTORM'
 
-
+# nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+# rbenv
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
