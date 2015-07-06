@@ -113,10 +113,13 @@ fi
 export XDEBUG_CONFIG='idekey=PHPSTORM'
 
 # nvm
+# https://github.com/creationix/nvm#installation
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 # rbenv
+# https://github.com/sstephenson/rbenv#installation
+# https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-14-04
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
