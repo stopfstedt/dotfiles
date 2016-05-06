@@ -3,3 +3,10 @@
 # @link https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
 #
 .idea
+*.bz2
+*.gz
+*.tar
+*.rar
+*.zip
+*~
+*.swp
